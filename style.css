@@ -63,3 +63,27 @@ button:hover{
     background-color: aqua;
     color: #20032b;
 }
+
+@media screen and (max-width: 782px) {
+    .answer{
+        width: 90%;
+        height: 80px;
+        border: 1px solid black;
+        margin: 10px auto;
+        padding: 10px;
+        display: flex;
+        border-radius: 5px;
+        justify-content: flex-end;
+        font: normal 3rem serif;
+        overflow: hidden;
+    }
+
+    .calculator{
+        width: 90%;
+        margin: 0 auto;
+        background-color: aquamarine;
+        padding: 20px;
+        box-shadow: 5px 5px 20px #20032b;
+        border-radius: 5px;
+    }
+}
